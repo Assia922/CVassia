@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assia TARISSE - Chef de Projet Data & IA</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px; /* Élargir l'ensemble du CV */
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .column {
+            width: 55%; /* Augmenter la largeur des colonnes */
+        }
+
+        h1 {
+            text-align: center;
+            color: #1f77b4;
+        }
+        .section-title {
+            color: #e74c3c;
+            font-size: 24px;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            width: 48%;
+        }
+        .content-box {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Animation d’apparition fluide */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Animation du titre */
+        h1 {
+            text-align: center;
+            color: #1f77b4;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Effet au survol des blocs */
+        .content-box:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Effet de transition fluide sur toutes les sections */
+        .content-box {
+            animation: fadeIn 1.5s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Ombres et coins arrondis pour un look moderne */
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Assia T - Chef de Projet Data & IA en alternance</h1>
+        
+        <div class="content-box">
+            <p>Forte d'une expérience de plus de 12 ans en gestion de la paie et des déclarations sociales, j'ai développé une expertise approfondie en analyse et structuration de données. 
+            Cette expérience m'a naturellement conduite à explorer le domaine de la data et de l'IA, où j’ai pu retrouver des problématiques similaires : optimiser, automatiser et analyser de grandes quantités d’informations pour améliorer la prise de décision et l'efficacité des processus.</p>
+
+            <p>Actuellement en formation en Data Analyst, je recherche une alternance en contrat de professionnalisation pour préparer le diplôme de Chef de Projet IA & Data (RNCP niveau VII), avec un rythme de 3 semaines en entreprise et 1 semaine en cours en octobre 2025.</p>
+        </div>
+
+        <div class="content-box">
+            <h2 class="section-title">🎓 Formation - Wild Code School</h2>
+            <p>Dans le cadre de ma formation de Data Analyst, j'ai appris à mener des projets de A à Z en appliquant une méthodologie rigoureuse et en travaillant en équipe.</p>
+            <p>Nous avons réalisé trois projets complets, abordant différents aspects de la data : extraction, transformation, analyse et visualisation.</p>
+            <p>Durant cette formation, j'ai acquis des compétences clés :</p>
+            <ul>
+                <li>Programmation : Python et ses bibliothèques (Pandas, NumPy, Scikit-learn)</li>
+                <li>Base de données : SQL, MySQL Workbench, gestion des requêtes et optimisation</li>
+                <li>Data Visualization : Power BI, Matplotlib, Seaborn</li>
+                <li>Outils et environnements : VS Code, Regex, Web Scraping, NLP</li>
+                <li>Gestion de projet :
+                    <ul>
+                        <li>Mise en place d’un planning de projet avec Miro / Trello</li>
+                        <li>Respect du calendrier et des échéances</li>
+                        <li>Méthodologie agile (Scrum avec des sprints de 1 mois)</li>
+                    </ul>
+                </li>
+                <li>Exploitation de données : JSON, API, manipulation de fichiers</li>
+                <li>Versioning & Déploiement : Git, GitHub</li>
+                <li>Machine Learning : Régression, Classification, Clustering</li>
+                <li>Développement Web : HTML, CSS & Streamlit avancé</li>
+                <li>Analyse avancée : Regex & Geocoding</li>
+                <li>Compétences transversales : Présentation orale, vulgarisation de données</li>
+            </ul>
+            <p>Nous avons également dû présenter nos projets en conditions réelles, comme face à un client, en préparant un support de présentation structuré et en adaptant notre discours en fonction de l'audience. Ces mises en situation nous ont permis d'affiner nos compétences en communication et en vulgarisation des données.</p>
+            <p>Cette formation m'a permis d'appliquer mes compétences à des cas concrets et de développer une approche analytique et stratégique dans la gestion des données.</p>
+        </div>
+        
+        <div class="columns">
+            <div class="column">
+                <div class="content-box">
+                    <h2 class="section-title">📌 Contact</h2>
+                    <p>📍 Ville : Colombes</p>
+                    <p>🔗 <a href="https://linkedin.com/in/assia-tarisse" target="_blank">LinkedIn</a></p>
+                </div>
+                <div class="content-box">
+                    <h2 class="section-title">🎓 Formations</h2>
+                    <p>2025 - Data Analyst - (RNCP niveau VI) - Wild Code School</p>
+                    <p>2016 - Gestionnaire de paie - (RNCP niveau V) - IGS</p>
+                    <p>2015 - Assistante Ressources Humaines - (RNCP niveau V) - AFPA</p>
+                    <p>2011 - Secrétaire administrative - (RNCP niveau IV) - IFOCOP</p>
+                </div>
+                <div class="content-box">
+                    <h2 class="section-title">⚙️ Outils & Logiciels</h2>
+                    <p><b>Data & BI :</b> Power BI, SQL, Python, Snowflake, Excel (TCD, RechercheV)</p>
+                    <p><b>Logiciels de paie :</b> PayFit, CEGID, HR Access, ADP Décidium, Anael</p>
+                </div>
+                <div class="content-box">
+                    <h2 class="section-title">🌍 Langues</h2>
+                    <p>- Français (natif)</p>
+                    <p>- Anglais (notions, en cours d’amélioration)</p>
+                </div>
+                <div class="content-box">
+                    <h2 class="section-title">🚀 Projets</h2>
+                    <p> - Analyse de données & reporting (Requêtes SQL pour répondre aux KPIs du client, Dashboard interactif sous Power BI).</p>
+                    <p> - Système de recommandation de films (Étude de marché et développement d'un algorithme de recommandation, Interface interactive avec Streamlit et Scikit-Learn)</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content-box">
+                    <h2 class="section-title">💼 Expériences Professionnelles</h2>
+                    <p><b>Mai 2022 - Octobre 2024 :</b> Experte Déclaration - PayFit</p>
+                    <p>- Support client (one-to-one) via Salesforce et résolution des problèmes liés aux déclarations événementielles (attestation France Travail, attestation de salaire, DPAE, etc.).</p>
+                    <p>- Gestion de la RPA et correction des erreurs système.</p>
+                    <p>- Coordination des équipes prestataires (support et formation).</p>
+                    <p>- Interlocutrice privilégiée pour les évolutions de la solution de paie, en lien avec les équipes techniques et métiers afin d'optimiser les fonctionnalités et l'expérience utilisateur.</p>
+                    <p>- Participation aux défis IA (clustering avec Snowflake).</p>
+                    <p>- Participation à la réécriture des processus et à la migration d’un outil de documentation.</p>
+                    
+                    <p><b>Novembre 2021 - Mai 2022 :</b> Gestionnaire de Paie - Danone</p>
+                    <p>- Gestion complète d’un portefeuille de collaborateurs, des charges sociales et reporting RH.</p>
+                    <p>- Migration du logiciel de paie et accompagnement du PSE.</p>
+                    <p>- Gestion complète d’un portefeuille de collaborateurs, paie de A à Z.</p>
+                    
+                    <p><b>Novembre 2019 - Novembre 2021 :</b> Gestionnaire de Paie Unique - ID2</p>
+                    <p>- Gestion complète de la paie de A à Z pour trois entités différentes, et les déclarations sociales.</p>
+                    <p>- Optimisation des process, reporting, gestion GTA.</p>
+                    <p>- Gestion des problématiques liées au logiciel de paie en période COVID et adaptation aux évolutions réglementaires constantes.</p>
+                    <p>- Paramétrage du logiciel de paie et mise en conformité des règles de paie.</p>
+                    <p>- Participation au bilan social et élaboration des indicateurs Paie.</p>
+                    <p>- Gestion des communications aux collaborateurs concernant les mises à jour paie et réglementation</p>
+                    <p>- Accueil et accompagnement des salariés pour leur solde de tout compte (STC).</p>
+                    <p>- Élaboration des index parité homme-femme et suivi des indicateurs d'égalité professionnelle.</p>
+                    
+                    <h2 class="section-title">💼 Diverses Expériences en Paie 2013/2019</h2>
+                    <p>- Deloitte (AXA) : Gestion des STC, vérification des bulletins de paie et des documents de sorties.</p>
+                    <p>- Page Personnel : Gestion d’un portefeuille de paie intérimaire.</p>
+                    <p>- Oscaro.com : Gestion complète de la paie.</p>
+                    <p>- Tati : Gestion des CDD/CDI, STC, passage de 60 à 400 salariés.</p>
+                    <p>- Atlas Ambulances : Préparation de la paie, pré-recrutement, recouvrement, facturation CPAM/mutuelle.</p>
+                    
+                    
+                    <h2 class="section-title">💼 Diverses Expériences 2005/2012</h2>
+                    <p>- Équipière, Caissière, Animatrice, Secrétaire, Assistante commerciale</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
